@@ -1,0 +1,11 @@
+{
+  "id": "masks-oracle-panel",
+  "title": "Masks Solo / GM Oracle Panel",
+  "description": "Private oracle control panel for solo Masks play and GM preparation. Original Starforged tables adapted with custom Masks prompts.",
+  "version": "0.2.0",
+  "authors": [{"name":"Doyce Testerman"}],
+  "compatibility": {"minimum":"14","verified":"14","maximum":"14"},
+  "scripts": ["scripts/panel.js"],
+  "styles": ["styles/panel.css"],
+  "license": "LICENSE.md"
+}

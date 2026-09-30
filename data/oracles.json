@@ -1,0 +1,3999 @@
+{
+  "schema": 1,
+  "title": "Masks Solo / GM Oracles",
+  "credit": "Original Starforged tables by Shawn Tomkin, from Dataforged v1.5.3, CC BY 4.0. Modified Action and Theme entries by Doyce Testerman. Custom Masks tables drafted for this playtest. Unofficial and unaffiliated with Magpie Games or Tomkin Press. Four adapted Sundered Isles tables by Shawn Tomkin (2024), CC BY-NC-SA 4.0, with Masks wording changes.",
+  "groups": [
+    "Core",
+    "Pressure",
+    "NPC",
+    "Threat",
+    "Relationships",
+    "Scenes"
+  ],
+  "tables": [
+    {
+      "id": "action",
+      "title": "Action",
+      "group": "Core",
+      "die": 100,
+      "note": "",
+      "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Abandon"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Acquire"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Advance"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Affect"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Aid"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Arrive"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Assault"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Attack"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Avenge"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Avoid"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Await"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Begin"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "Betray"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "Bolster"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "Breach"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "Break"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "Capture"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "Challenge"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "Change"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Charge"
+        },
+        {
+          "min": 21,
+          "max": 21,
+          "text": "Clash"
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "text": "Command"
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "text": "Communicate"
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "text": "Construct"
+        },
+        {
+          "min": 25,
+          "max": 25,
+          "text": "Control"
+        },
+        {
+          "min": 26,
+          "max": 26,
+          "text": "Coordinate"
+        },
+        {
+          "min": 27,
+          "max": 27,
+          "text": "Create"
+        },
+        {
+          "min": 28,
+          "max": 28,
+          "text": "Debate"
+        },
+        {
+          "min": 29,
+          "max": 29,
+          "text": "Defeat"
+        },
+        {
+          "min": 30,
+          "max": 30,
+          "text": "Defend"
+        },
+        {
+          "min": 31,
+          "max": 31,
+          "text": "Deflect"
+        },
+        {
+          "min": 32,
+          "max": 32,
+          "text": "Defy"
+        },
+        {
+          "min": 33,
+          "max": 33,
+          "text": "Deliver"
+        },
+        {
+          "min": 34,
+          "max": 34,
+          "text": "Demand"
+        },
+        {
+          "min": 35,
+          "max": 35,
+          "text": "Depart"
+        },
+        {
+          "min": 36,
+          "max": 36,
+          "text": "Destroy"
+        },
+        {
+          "min": 37,
+          "max": 37,
+          "text": "Distract"
+        },
+        {
+          "min": 38,
+          "max": 38,
+          "text": "Eliminate"
+        },
+        {
+          "min": 39,
+          "max": 39,
+          "text": "Endure"
+        },
+        {
+          "min": 40,
+          "max": 40,
+          "text": "Escalate"
+        },
+        {
+          "min": 41,
+          "max": 41,
+          "text": "Escort"
+        },
+        {
+          "min": 42,
+          "max": 42,
+          "text": "Evade"
+        },
+        {
+          "min": 43,
+          "max": 43,
+          "text": "Provoke"
+        },
+        {
+          "min": 44,
+          "max": 44,
+          "text": "Falter"
+        },
+        {
+          "min": 45,
+          "max": 45,
+          "text": "Find"
+        },
+        {
+          "min": 46,
+          "max": 46,
+          "text": "Finish"
+        },
+        {
+          "min": 47,
+          "max": 47,
+          "text": "Focus"
+        },
+        {
+          "min": 48,
+          "max": 48,
+          "text": "Follow"
+        },
+        {
+          "min": 49,
+          "max": 49,
+          "text": "Fortify"
+        },
+        {
+          "min": 50,
+          "max": 50,
+          "text": "Embarrass"
+        },
+        {
+          "min": 51,
+          "max": 51,
+          "text": "Guard"
+        },
+        {
+          "min": 52,
+          "max": 52,
+          "text": "Hide"
+        },
+        {
+          "min": 53,
+          "max": 53,
+          "text": "Hold"
+        },
+        {
+          "min": 54,
+          "max": 54,
+          "text": "Hunt"
+        },
+        {
+          "min": 55,
+          "max": 55,
+          "text": "Impress"
+        },
+        {
+          "min": 56,
+          "max": 56,
+          "text": "Initiate"
+        },
+        {
+          "min": 57,
+          "max": 57,
+          "text": "Inspect"
+        },
+        {
+          "min": 58,
+          "max": 58,
+          "text": "Investigate"
+        },
+        {
+          "min": 59,
+          "max": 59,
+          "text": "Recruit"
+        },
+        {
+          "min": 60,
+          "max": 60,
+          "text": "Learn"
+        },
+        {
+          "min": 61,
+          "max": 61,
+          "text": "Leave"
+        },
+        {
+          "min": 62,
+          "max": 62,
+          "text": "Locate"
+        },
+        {
+          "min": 63,
+          "max": 63,
+          "text": "Lose"
+        },
+        {
+          "min": 64,
+          "max": 64,
+          "text": "Manipulate"
+        },
+        {
+          "min": 65,
+          "max": 65,
+          "text": "Mourn"
+        },
+        {
+          "min": 66,
+          "max": 66,
+          "text": "Move"
+        },
+        {
+          "min": 67,
+          "max": 67,
+          "text": "Oppose"
+        },
+        {
+          "min": 68,
+          "max": 68,
+          "text": "Overwhelm"
+        },
+        {
+          "min": 69,
+          "max": 69,
+          "text": "Persevere"
+        },
+        {
+          "min": 70,
+          "max": 70,
+          "text": "Preserve"
+        },
+        {
+          "min": 71,
+          "max": 71,
+          "text": "Protect"
+        },
+        {
+          "min": 72,
+          "max": 72,
+          "text": "Raid"
+        },
+        {
+          "min": 73,
+          "max": 73,
+          "text": "Reduce"
+        },
+        {
+          "min": 74,
+          "max": 74,
+          "text": "Refuse"
+        },
+        {
+          "min": 75,
+          "max": 75,
+          "text": "Reject"
+        },
+        {
+          "min": 76,
+          "max": 76,
+          "text": "Release"
+        },
+        {
+          "min": 77,
+          "max": 77,
+          "text": "Remove"
+        },
+        {
+          "min": 78,
+          "max": 78,
+          "text": "Research"
+        },
+        {
+          "min": 79,
+          "max": 79,
+          "text": "Resist"
+        },
+        {
+          "min": 80,
+          "max": 80,
+          "text": "Restore"
+        },
+        {
+          "min": 81,
+          "max": 81,
+          "text": "Reveal"
+        },
+        {
+          "min": 82,
+          "max": 82,
+          "text": "Risk"
+        },
+        {
+          "min": 83,
+          "max": 83,
+          "text": "Scheme"
+        },
+        {
+          "min": 84,
+          "max": 84,
+          "text": "Search"
+        },
+        {
+          "min": 85,
+          "max": 85,
+          "text": "Secure"
+        },
+        {
+          "min": 86,
+          "max": 86,
+          "text": "Seize"
+        },
+        {
+          "min": 87,
+          "max": 87,
+          "text": "Serve"
+        },
+        {
+          "min": 88,
+          "max": 88,
+          "text": "Share"
+        },
+        {
+          "min": 89,
+          "max": 89,
+          "text": "Strengthen"
+        },
+        {
+          "min": 90,
+          "max": 90,
+          "text": "Summon"
+        },
+        {
+          "min": 91,
+          "max": 91,
+          "text": "Support"
+        },
+        {
+          "min": 92,
+          "max": 92,
+          "text": "Suppress"
+        },
+        {
+          "min": 93,
+          "max": 93,
+          "text": "Surrender"
+        },
+        {
+          "min": 94,
+          "max": 94,
+          "text": "Swear"
+        },
+        {
+          "min": 95,
+          "max": 95,
+          "text": "Threaten"
+        },
+        {
+          "min": 96,
+          "max": 96,
+          "text": "Transform"
+        },
+        {
+          "min": 97,
+          "max": 97,
+          "text": "Uncover"
+        },
+        {
+          "min": 98,
+          "max": 98,
+          "text": "Uphold"
+        },
+        {
+          "min": 99,
+          "max": 99,
+          "text": "Weaken"
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "text": "Withdraw"
+        }
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "Theme",
+      "group": "Core",
+      "die": 100,
+      "note": "",
+      "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Ability"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Advantage"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Alliance"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Authority"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Balance"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Barrier"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Belief"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Blood"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Bond"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Burden"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Approval"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Community"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "Corruption"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "Creation"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "Crime"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "Culture"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "Cure"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "Danger"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "Death"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Debt"
+        },
+        {
+          "min": 21,
+          "max": 21,
+          "text": "Decay"
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "text": "Deception"
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "text": "Defense"
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "text": "Destiny"
+        },
+        {
+          "min": 25,
+          "max": 25,
+          "text": "Disaster"
+        },
+        {
+          "min": 26,
+          "max": 26,
+          "text": "Discovery"
+        },
+        {
+          "min": 27,
+          "max": 27,
+          "text": "Disease"
+        },
+        {
+          "min": 28,
+          "max": 28,
+          "text": "Dominion"
+        },
+        {
+          "min": 29,
+          "max": 29,
+          "text": "Dream"
+        },
+        {
+          "min": 30,
+          "max": 30,
+          "text": "Duty"
+        },
+        {
+          "min": 31,
+          "max": 31,
+          "text": "Enemy"
+        },
+        {
+          "min": 32,
+          "max": 32,
+          "text": "Acceptance"
+        },
+        {
+          "min": 33,
+          "max": 33,
+          "text": "Faction"
+        },
+        {
+          "min": 34,
+          "max": 34,
+          "text": "Fame"
+        },
+        {
+          "min": 35,
+          "max": 35,
+          "text": "Family"
+        },
+        {
+          "min": 36,
+          "max": 36,
+          "text": "Fear"
+        },
+        {
+          "min": 37,
+          "max": 37,
+          "text": "Fellowship"
+        },
+        {
+          "min": 38,
+          "max": 38,
+          "text": "Freedom"
+        },
+        {
+          "min": 39,
+          "max": 39,
+          "text": "Greed"
+        },
+        {
+          "min": 40,
+          "max": 40,
+          "text": "Hardship"
+        },
+        {
+          "min": 41,
+          "max": 41,
+          "text": "Hate"
+        },
+        {
+          "min": 42,
+          "max": 42,
+          "text": "Health"
+        },
+        {
+          "min": 43,
+          "max": 43,
+          "text": "History"
+        },
+        {
+          "min": 44,
+          "max": 44,
+          "text": "Home"
+        },
+        {
+          "min": 45,
+          "max": 45,
+          "text": "Honor"
+        },
+        {
+          "min": 46,
+          "max": 46,
+          "text": "Hope"
+        },
+        {
+          "min": 47,
+          "max": 47,
+          "text": "Humanity"
+        },
+        {
+          "min": 48,
+          "max": 48,
+          "text": "Innocence"
+        },
+        {
+          "min": 49,
+          "max": 49,
+          "text": "Knowledge"
+        },
+        {
+          "min": 50,
+          "max": 50,
+          "text": "Expectation"
+        },
+        {
+          "min": 51,
+          "max": 51,
+          "text": "Language"
+        },
+        {
+          "min": 52,
+          "max": 52,
+          "text": "Law"
+        },
+        {
+          "min": 53,
+          "max": 53,
+          "text": "Legacy"
+        },
+        {
+          "min": 54,
+          "max": 54,
+          "text": "Life"
+        },
+        {
+          "min": 55,
+          "max": 55,
+          "text": "Love"
+        },
+        {
+          "min": 56,
+          "max": 56,
+          "text": "Memory"
+        },
+        {
+          "min": 57,
+          "max": 57,
+          "text": "Nature"
+        },
+        {
+          "min": 58,
+          "max": 58,
+          "text": "Opportunity"
+        },
+        {
+          "min": 59,
+          "max": 59,
+          "text": "Belonging"
+        },
+        {
+          "min": 60,
+          "max": 60,
+          "text": "Peace"
+        },
+        {
+          "min": 61,
+          "max": 61,
+          "text": "Phenomenon"
+        },
+        {
+          "min": 62,
+          "max": 62,
+          "text": "Possession"
+        },
+        {
+          "min": 63,
+          "max": 63,
+          "text": "Power"
+        },
+        {
+          "min": 64,
+          "max": 64,
+          "text": "Price"
+        },
+        {
+          "min": 65,
+          "max": 65,
+          "text": "Pride"
+        },
+        {
+          "min": 66,
+          "max": 66,
+          "text": "Prize"
+        },
+        {
+          "min": 67,
+          "max": 67,
+          "text": "Prophesy"
+        },
+        {
+          "min": 68,
+          "max": 68,
+          "text": "Protection"
+        },
+        {
+          "min": 69,
+          "max": 69,
+          "text": "Quest"
+        },
+        {
+          "min": 70,
+          "max": 70,
+          "text": "Relationship"
+        },
+        {
+          "min": 71,
+          "max": 71,
+          "text": "Religion"
+        },
+        {
+          "min": 72,
+          "max": 72,
+          "text": "Reputation"
+        },
+        {
+          "min": 73,
+          "max": 73,
+          "text": "Influence"
+        },
+        {
+          "min": 74,
+          "max": 74,
+          "text": "Revenge"
+        },
+        {
+          "min": 75,
+          "max": 75,
+          "text": "Rival"
+        },
+        {
+          "min": 76,
+          "max": 76,
+          "text": "Rumor"
+        },
+        {
+          "min": 77,
+          "max": 77,
+          "text": "Safety"
+        },
+        {
+          "min": 78,
+          "max": 78,
+          "text": "Sanctuary"
+        },
+        {
+          "min": 79,
+          "max": 79,
+          "text": "Secret"
+        },
+        {
+          "min": 80,
+          "max": 80,
+          "text": "Solution"
+        },
+        {
+          "min": 81,
+          "max": 81,
+          "text": "Spirit"
+        },
+        {
+          "min": 82,
+          "max": 82,
+          "text": "Stranger"
+        },
+        {
+          "min": 83,
+          "max": 83,
+          "text": "Strategy"
+        },
+        {
+          "min": 84,
+          "max": 84,
+          "text": "Strength"
+        },
+        {
+          "min": 85,
+          "max": 85,
+          "text": "Superstition"
+        },
+        {
+          "min": 86,
+          "max": 86,
+          "text": "Friendship"
+        },
+        {
+          "min": 87,
+          "max": 87,
+          "text": "Survival"
+        },
+        {
+          "min": 88,
+          "max": 88,
+          "text": "Technology"
+        },
+        {
+          "min": 89,
+          "max": 89,
+          "text": "Time"
+        },
+        {
+          "min": 90,
+          "max": 90,
+          "text": "Tool"
+        },
+        {
+          "min": 91,
+          "max": 91,
+          "text": "Identity"
+        },
+        {
+          "min": 92,
+          "max": 92,
+          "text": "Truth"
+        },
+        {
+          "min": 93,
+          "max": 93,
+          "text": "Vengeance"
+        },
+        {
+          "min": 94,
+          "max": 94,
+          "text": "Vow"
+        },
+        {
+          "min": 95,
+          "max": 95,
+          "text": "War"
+        },
+        {
+          "min": 96,
+          "max": 96,
+          "text": "Warning"
+        },
+        {
+          "min": 97,
+          "max": 97,
+          "text": "Weakness"
+        },
+        {
+          "min": 98,
+          "max": 98,
+          "text": "Responsibility"
+        },
+        {
+          "min": 99,
+          "max": 99,
+          "text": "Weapon"
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "text": "World"
+        }
+      ]
+    },
+    {
+      "id": "descriptor",
+      "title": "Descriptor",
+      "group": "Core",
+      "die": 100,
+      "note": "",
+      "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Abandoned"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Abundant"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Active"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Advanced"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Alien"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Ancient"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Archaic"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Automated"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Barren"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Biological"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Blighted"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Blocked"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "Breached"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "Broken"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "Captured"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "Chaotic"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "Civilized"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "Collapsed"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "Colossal"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Confined"
+        },
+        {
+          "min": 21,
+          "max": 21,
+          "text": "Conspicuous"
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "text": "Constructed"
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "text": "Contested"
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "text": "Corrupted"
+        },
+        {
+          "min": 25,
+          "max": 25,
+          "text": "Created"
+        },
+        {
+          "min": 26,
+          "max": 26,
+          "text": "Damaged"
+        },
+        {
+          "min": 27,
+          "max": 27,
+          "text": "Dead"
+        },
+        {
+          "min": 28,
+          "max": 28,
+          "text": "Deadly"
+        },
+        {
+          "min": 29,
+          "max": 29,
+          "text": "Decaying"
+        },
+        {
+          "min": 30,
+          "max": 30,
+          "text": "Defended"
+        },
+        {
+          "min": 31,
+          "max": 31,
+          "text": "Depleted"
+        },
+        {
+          "min": 32,
+          "max": 32,
+          "text": "Desolate"
+        },
+        {
+          "min": 33,
+          "max": 33,
+          "text": "Destroyed"
+        },
+        {
+          "min": 34,
+          "max": 34,
+          "text": "Diverse"
+        },
+        {
+          "min": 35,
+          "max": 35,
+          "text": "Empty"
+        },
+        {
+          "min": 36,
+          "max": 36,
+          "text": "Engulfed"
+        },
+        {
+          "min": 37,
+          "max": 37,
+          "text": "Ensnaring"
+        },
+        {
+          "min": 38,
+          "max": 38,
+          "text": "Expansive"
+        },
+        {
+          "min": 39,
+          "max": 39,
+          "text": "Exposed"
+        },
+        {
+          "min": 40,
+          "max": 40,
+          "text": "Fiery"
+        },
+        {
+          "min": 41,
+          "max": 41,
+          "text": "Foreboding"
+        },
+        {
+          "min": 42,
+          "max": 42,
+          "text": "Forgotten"
+        },
+        {
+          "min": 43,
+          "max": 43,
+          "text": "Forsaken"
+        },
+        {
+          "min": 44,
+          "max": 44,
+          "text": "Fortified"
+        },
+        {
+          "min": 45,
+          "max": 45,
+          "text": "Foul"
+        },
+        {
+          "min": 46,
+          "max": 46,
+          "text": "Fragile"
+        },
+        {
+          "min": 47,
+          "max": 47,
+          "text": "Frozen"
+        },
+        {
+          "min": 48,
+          "max": 48,
+          "text": "Functional"
+        },
+        {
+          "min": 49,
+          "max": 49,
+          "text": "Grim"
+        },
+        {
+          "min": 50,
+          "max": 50,
+          "text": "Guarded"
+        },
+        {
+          "min": 51,
+          "max": 51,
+          "text": "Haunted"
+        },
+        {
+          "min": 52,
+          "max": 52,
+          "text": "Hidden"
+        },
+        {
+          "min": 53,
+          "max": 53,
+          "text": "Hoarded"
+        },
+        {
+          "min": 54,
+          "max": 54,
+          "text": "Hostile"
+        },
+        {
+          "min": 55,
+          "max": 55,
+          "text": "Immersed"
+        },
+        {
+          "min": 56,
+          "max": 56,
+          "text": "Inaccessible"
+        },
+        {
+          "min": 57,
+          "max": 57,
+          "text": "Infested"
+        },
+        {
+          "min": 58,
+          "max": 58,
+          "text": "Inhabited"
+        },
+        {
+          "min": 59,
+          "max": 59,
+          "text": "Isolated"
+        },
+        {
+          "min": 60,
+          "max": 60,
+          "text": "Living"
+        },
+        {
+          "min": 61,
+          "max": 61,
+          "text": "Lost"
+        },
+        {
+          "min": 62,
+          "max": 62,
+          "text": "Lush"
+        },
+        {
+          "min": 63,
+          "max": 63,
+          "text": "Makeshift"
+        },
+        {
+          "min": 64,
+          "max": 64,
+          "text": "Mechanical"
+        },
+        {
+          "min": 65,
+          "max": 65,
+          "text": "Misleading"
+        },
+        {
+          "min": 66,
+          "max": 66,
+          "text": "Moving"
+        },
+        {
+          "min": 67,
+          "max": 67,
+          "text": "Mysterious"
+        },
+        {
+          "min": 68,
+          "max": 68,
+          "text": "Natural"
+        },
+        {
+          "min": 69,
+          "max": 69,
+          "text": "New"
+        },
+        {
+          "min": 70,
+          "max": 70,
+          "text": "Obscured"
+        },
+        {
+          "min": 71,
+          "max": 71,
+          "text": "Open"
+        },
+        {
+          "min": 72,
+          "max": 72,
+          "text": "Peaceful"
+        },
+        {
+          "min": 73,
+          "max": 73,
+          "text": "Perilous"
+        },
+        {
+          "min": 74,
+          "max": 74,
+          "text": "Pillaged"
+        },
+        {
+          "min": 75,
+          "max": 75,
+          "text": "Powerful"
+        },
+        {
+          "min": 76,
+          "max": 76,
+          "text": "Preserved"
+        },
+        {
+          "min": 77,
+          "max": 77,
+          "text": "Prominent"
+        },
+        {
+          "min": 78,
+          "max": 78,
+          "text": "Protected"
+        },
+        {
+          "min": 79,
+          "max": 79,
+          "text": "Radiant"
+        },
+        {
+          "min": 80,
+          "max": 80,
+          "text": "Rare"
+        },
+        {
+          "min": 81,
+          "max": 81,
+          "text": "Remote"
+        },
+        {
+          "min": 82,
+          "max": 82,
+          "text": "Rich"
+        },
+        {
+          "min": 83,
+          "max": 83,
+          "text": "Ruined"
+        },
+        {
+          "min": 84,
+          "max": 84,
+          "text": "Sacred"
+        },
+        {
+          "min": 85,
+          "max": 85,
+          "text": "Safe"
+        },
+        {
+          "min": 86,
+          "max": 86,
+          "text": "Sealed"
+        },
+        {
+          "min": 87,
+          "max": 87,
+          "text": "Secret"
+        },
+        {
+          "min": 88,
+          "max": 88,
+          "text": "Settled"
+        },
+        {
+          "min": 89,
+          "max": 89,
+          "text": "Shrouded"
+        },
+        {
+          "min": 90,
+          "max": 90,
+          "text": "Stolen"
+        },
+        {
+          "min": 91,
+          "max": 91,
+          "text": "Strange"
+        },
+        {
+          "min": 92,
+          "max": 92,
+          "text": "Subsurface"
+        },
+        {
+          "min": 93,
+          "max": 93,
+          "text": "Toxic"
+        },
+        {
+          "min": 94,
+          "max": 94,
+          "text": "Trapped"
+        },
+        {
+          "min": 95,
+          "max": 95,
+          "text": "Undiscovered"
+        },
+        {
+          "min": 96,
+          "max": 96,
+          "text": "Unnatural"
+        },
+        {
+          "min": 97,
+          "max": 97,
+          "text": "Unstable"
+        },
+        {
+          "min": 98,
+          "max": 98,
+          "text": "Untamed"
+        },
+        {
+          "min": 99,
+          "max": 99,
+          "text": "Valuable"
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "text": "Violent"
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "title": "Focus",
+      "group": "Core",
+      "die": 100,
+      "note": "",
+      "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Alarm"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Anomaly"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Apparition"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Archive"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Art"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Artifact"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Atmosphere"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Battleground"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Beacon"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Being"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Blockade"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Boundary"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "Cache"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "Cargo"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "Commodity"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "Confinement"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "Connection"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "Container"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "Creation"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Creature"
+        },
+        {
+          "min": 21,
+          "max": 21,
+          "text": "Crossing"
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "text": "Data"
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "text": "Debris"
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "text": "Device"
+        },
+        {
+          "min": 25,
+          "max": 25,
+          "text": "Dimension"
+        },
+        {
+          "min": 26,
+          "max": 26,
+          "text": "Discovery"
+        },
+        {
+          "min": 27,
+          "max": 27,
+          "text": "Ecosystem"
+        },
+        {
+          "min": 28,
+          "max": 28,
+          "text": "Enclosure"
+        },
+        {
+          "min": 29,
+          "max": 29,
+          "text": "Energy"
+        },
+        {
+          "min": 30,
+          "max": 30,
+          "text": "Environment"
+        },
+        {
+          "min": 31,
+          "max": 31,
+          "text": "Equipment"
+        },
+        {
+          "min": 32,
+          "max": 32,
+          "text": "Experiment"
+        },
+        {
+          "min": 33,
+          "max": 33,
+          "text": "Facility"
+        },
+        {
+          "min": 34,
+          "max": 34,
+          "text": "Faction"
+        },
+        {
+          "min": 35,
+          "max": 35,
+          "text": "Fleet"
+        },
+        {
+          "min": 36,
+          "max": 36,
+          "text": "Force"
+        },
+        {
+          "min": 37,
+          "max": 37,
+          "text": "Fortification"
+        },
+        {
+          "min": 38,
+          "max": 38,
+          "text": "Gas"
+        },
+        {
+          "min": 39,
+          "max": 39,
+          "text": "Grave"
+        },
+        {
+          "min": 40,
+          "max": 40,
+          "text": "Habitat"
+        },
+        {
+          "min": 41,
+          "max": 41,
+          "text": "Hazard"
+        },
+        {
+          "min": 42,
+          "max": 42,
+          "text": "Hideaway"
+        },
+        {
+          "min": 43,
+          "max": 43,
+          "text": "Home"
+        },
+        {
+          "min": 44,
+          "max": 44,
+          "text": "Illusion"
+        },
+        {
+          "min": 45,
+          "max": 45,
+          "text": "Industry"
+        },
+        {
+          "min": 46,
+          "max": 46,
+          "text": "Intelligence"
+        },
+        {
+          "min": 47,
+          "max": 47,
+          "text": "Lair"
+        },
+        {
+          "min": 48,
+          "max": 48,
+          "text": "Lifeform"
+        },
+        {
+          "min": 49,
+          "max": 49,
+          "text": "Liquid"
+        },
+        {
+          "min": 50,
+          "max": 50,
+          "text": "Machine"
+        },
+        {
+          "min": 51,
+          "max": 51,
+          "text": "Material"
+        },
+        {
+          "min": 52,
+          "max": 52,
+          "text": "Mechanism"
+        },
+        {
+          "min": 53,
+          "max": 53,
+          "text": "Message"
+        },
+        {
+          "min": 54,
+          "max": 54,
+          "text": "Mineral"
+        },
+        {
+          "min": 55,
+          "max": 55,
+          "text": "Monument"
+        },
+        {
+          "min": 56,
+          "max": 56,
+          "text": "Obstacle"
+        },
+        {
+          "min": 57,
+          "max": 57,
+          "text": "Organism"
+        },
+        {
+          "min": 58,
+          "max": 58,
+          "text": "Outbreak"
+        },
+        {
+          "min": 59,
+          "max": 59,
+          "text": "Outpost"
+        },
+        {
+          "min": 60,
+          "max": 60,
+          "text": "Path"
+        },
+        {
+          "min": 61,
+          "max": 61,
+          "text": "People"
+        },
+        {
+          "min": 62,
+          "max": 62,
+          "text": "Person"
+        },
+        {
+          "min": 63,
+          "max": 63,
+          "text": "Plant"
+        },
+        {
+          "min": 64,
+          "max": 64,
+          "text": "Portal"
+        },
+        {
+          "min": 65,
+          "max": 65,
+          "text": "Reality"
+        },
+        {
+          "min": 66,
+          "max": 66,
+          "text": "Refuge"
+        },
+        {
+          "min": 67,
+          "max": 67,
+          "text": "Relic"
+        },
+        {
+          "min": 68,
+          "max": 68,
+          "text": "Remains"
+        },
+        {
+          "min": 69,
+          "max": 69,
+          "text": "Rendezvous"
+        },
+        {
+          "min": 70,
+          "max": 70,
+          "text": "Resource"
+        },
+        {
+          "min": 71,
+          "max": 71,
+          "text": "Route"
+        },
+        {
+          "min": 72,
+          "max": 72,
+          "text": "Ruins"
+        },
+        {
+          "min": 73,
+          "max": 73,
+          "text": "Salvage"
+        },
+        {
+          "min": 74,
+          "max": 74,
+          "text": "Settlement"
+        },
+        {
+          "min": 75,
+          "max": 75,
+          "text": "Shelter"
+        },
+        {
+          "min": 76,
+          "max": 76,
+          "text": "Ship"
+        },
+        {
+          "min": 77,
+          "max": 77,
+          "text": "Shortcut"
+        },
+        {
+          "min": 78,
+          "max": 78,
+          "text": "Signal"
+        },
+        {
+          "min": 79,
+          "max": 79,
+          "text": "Sound"
+        },
+        {
+          "min": 80,
+          "max": 80,
+          "text": "Storage"
+        },
+        {
+          "min": 81,
+          "max": 81,
+          "text": "Storm"
+        },
+        {
+          "min": 82,
+          "max": 82,
+          "text": "Structure"
+        },
+        {
+          "min": 83,
+          "max": 83,
+          "text": "Supply"
+        },
+        {
+          "min": 84,
+          "max": 84,
+          "text": "Symbol"
+        },
+        {
+          "min": 85,
+          "max": 85,
+          "text": "System"
+        },
+        {
+          "min": 86,
+          "max": 86,
+          "text": "Technology"
+        },
+        {
+          "min": 87,
+          "max": 87,
+          "text": "Terrain"
+        },
+        {
+          "min": 88,
+          "max": 88,
+          "text": "Territory"
+        },
+        {
+          "min": 89,
+          "max": 89,
+          "text": "Threshold"
+        },
+        {
+          "min": 90,
+          "max": 90,
+          "text": "Time"
+        },
+        {
+          "min": 91,
+          "max": 91,
+          "text": "Transport"
+        },
+        {
+          "min": 92,
+          "max": 92,
+          "text": "Trap"
+        },
+        {
+          "min": 93,
+          "max": 93,
+          "text": "Treasure"
+        },
+        {
+          "min": 94,
+          "max": 94,
+          "text": "Vault"
+        },
+        {
+          "min": 95,
+          "max": 95,
+          "text": "Vehicle"
+        },
+        {
+          "min": 96,
+          "max": 96,
+          "text": "Viewpoint"
+        },
+        {
+          "min": 97,
+          "max": 97,
+          "text": "Void"
+        },
+        {
+          "min": 98,
+          "max": 98,
+          "text": "Weapon"
+        },
+        {
+          "min": 99,
+          "max": 99,
+          "text": "World"
+        },
+        {
+          "min": 100,
+          "max": 100,
+          "text": "Wreckage"
+        }
+      ]
+    },
+    {
+      "id": "consequence",
+      "title": "Masks Consequence",
+      "group": "Pressure",
+      "die": 20,
+      "note": "On 20, roll twice; reroll any further 20s. Interpret through the current fiction.",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Mark a Condition"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Shift a Label"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Someone gains Influence over you"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Someone uses their Influence over you"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Hurt someone you care about"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Put a teammate in danger"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Cause collateral damage"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Reveal an uncomfortable truth"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Adult heroes intervene"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "The villain advances their plan"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Public opinion turns against you"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Your secret creates a complication"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "Your powers cause an unintended effect"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "Separate the team"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "Make the situation personal"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "Introduce someone who expects something from you"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "Take away an opportunity"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "Escalate the threat"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "A relationship changes"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Roll twice",
+          "effect": "rollTwice"
+        }
+      ]
+    },
+    {
+      "id": "disposition",
+      "title": "Disposition",
+      "group": "NPC",
+      "die": 100,
+      "note": "",
+      "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
+      "entries": [
+        {
+          "min": 1,
+          "max": 6,
+          "text": "Helpful"
+        },
+        {
+          "min": 7,
+          "max": 14,
+          "text": "Friendly"
+        },
+        {
+          "min": 15,
+          "max": 22,
+          "text": "Cooperative"
+        },
+        {
+          "min": 23,
+          "max": 30,
+          "text": "Curious"
+        },
+        {
+          "min": 31,
+          "max": 40,
+          "text": "Indifferent"
+        },
+        {
+          "min": 41,
+          "max": 50,
+          "text": "Suspicious"
+        },
+        {
+          "min": 51,
+          "max": 60,
+          "text": "Wanting"
+        },
+        {
+          "min": 61,
+          "max": 70,
+          "text": "Desperate"
+        },
+        {
+          "min": 71,
+          "max": 78,
+          "text": "Demanding"
+        },
+        {
+          "min": 79,
+          "max": 86,
+          "text": "Unfriendly"
+        },
+        {
+          "min": 87,
+          "max": 94,
+          "text": "Threatening"
+        },
+        {
+          "min": 95,
+          "max": 100,
+          "text": "Hostile"
+        }
+      ]
+    },
+    {
+      "id": "first-look",
+      "title": "First Look",
+      "group": "NPC",
+      "die": 100,
+      "note": "",
+      "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
+      "entries": [
+        {
+          "min": 1,
+          "max": 3,
+          "text": "Accented"
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "text": "Accompanied"
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "text": "Adorned"
+        },
+        {
+          "min": 9,
+          "max": 11,
+          "text": "Aged"
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "text": "Alluring"
+        },
+        {
+          "min": 14,
+          "max": 15,
+          "text": "Armed"
+        },
+        {
+          "min": 16,
+          "max": 17,
+          "text": "Armored"
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "text": "Athletic"
+        },
+        {
+          "min": 21,
+          "max": 23,
+          "text": "Attractive"
+        },
+        {
+          "min": 24,
+          "max": 25,
+          "text": "Augmented"
+        },
+        {
+          "min": 26,
+          "max": 27,
+          "text": "Concealed"
+        },
+        {
+          "min": 28,
+          "max": 30,
+          "text": "Distracted"
+        },
+        {
+          "min": 31,
+          "max": 33,
+          "text": "Eccentric"
+        },
+        {
+          "min": 34,
+          "max": 35,
+          "text": "Energetic"
+        },
+        {
+          "min": 36,
+          "max": 37,
+          "text": "Flashy"
+        },
+        {
+          "min": 38,
+          "max": 40,
+          "text": "Graceful"
+        },
+        {
+          "min": 41,
+          "max": 43,
+          "text": "Grim"
+        },
+        {
+          "min": 44,
+          "max": 46,
+          "text": "Haggard"
+        },
+        {
+          "min": 47,
+          "max": 49,
+          "text": "Ill-equipped"
+        },
+        {
+          "min": 50,
+          "max": 52,
+          "text": "Imposing"
+        },
+        {
+          "min": 53,
+          "max": 55,
+          "text": "Large"
+        },
+        {
+          "min": 56,
+          "max": 57,
+          "text": "Mutated"
+        },
+        {
+          "min": 58,
+          "max": 60,
+          "text": "Plain"
+        },
+        {
+          "min": 61,
+          "max": 62,
+          "text": "Poised"
+        },
+        {
+          "min": 63,
+          "max": 65,
+          "text": "Scarred"
+        },
+        {
+          "min": 66,
+          "max": 68,
+          "text": "Scruffy"
+        },
+        {
+          "min": 69,
+          "max": 71,
+          "text": "Shifty"
+        },
+        {
+          "min": 72,
+          "max": 73,
+          "text": "Sickly"
+        },
+        {
+          "min": 74,
+          "max": 76,
+          "text": "Slight"
+        },
+        {
+          "min": 77,
+          "max": 78,
+          "text": "Swaggering"
+        },
+        {
+          "min": 79,
+          "max": 81,
+          "text": "Tattooed"
+        },
+        {
+          "min": 82,
+          "max": 83,
+          "text": "Threatened"
+        },
+        {
+          "min": 84,
+          "max": 85,
+          "text": "Uncanny"
+        },
+        {
+          "min": 86,
+          "max": 87,
+          "text": "Visibly disabled"
+        },
+        {
+          "min": 88,
+          "max": 90,
+          "text": "Weathered"
+        },
+        {
+          "min": 91,
+          "max": 92,
+          "text": "Well-equipped"
+        },
+        {
+          "min": 93,
+          "max": 95,
+          "text": "Wiry"
+        },
+        {
+          "min": 96,
+          "max": 97,
+          "text": "Wounded"
+        },
+        {
+          "min": 98,
+          "max": 100,
+          "text": "Youthful"
+        }
+      ]
+    },
+    {
+      "id": "goal",
+      "title": "Goal",
+      "group": "NPC",
+      "die": 100,
+      "note": "",
+      "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
+      "entries": [
+        {
+          "min": 1,
+          "max": 2,
+          "text": "Avenge a wrong"
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "text": "Build a home"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "text": "Build a relationship"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "text": "Claim a resource"
+        },
+        {
+          "min": 11,
+          "max": 12,
+          "text": "Collect a debt"
+        },
+        {
+          "min": 13,
+          "max": 14,
+          "text": "Craft an object"
+        },
+        {
+          "min": 15,
+          "max": 16,
+          "text": "Cure an ill"
+        },
+        {
+          "min": 17,
+          "max": 18,
+          "text": "Defeat a rival"
+        },
+        {
+          "min": 19,
+          "max": 20,
+          "text": "Defend a person"
+        },
+        {
+          "min": 21,
+          "max": 23,
+          "text": "Defend a place"
+        },
+        {
+          "min": 24,
+          "max": 25,
+          "text": "Discover a truth"
+        },
+        {
+          "min": 26,
+          "max": 27,
+          "text": "End a conflict"
+        },
+        {
+          "min": 28,
+          "max": 29,
+          "text": "Escape a captor"
+        },
+        {
+          "min": 30,
+          "max": 31,
+          "text": "Fight injustice"
+        },
+        {
+          "min": 32,
+          "max": 33,
+          "text": "Find a person"
+        },
+        {
+          "min": 34,
+          "max": 35,
+          "text": "Forge an alliance"
+        },
+        {
+          "min": 36,
+          "max": 37,
+          "text": "Gain knowledge"
+        },
+        {
+          "min": 38,
+          "max": 39,
+          "text": "Gain riches"
+        },
+        {
+          "min": 40,
+          "max": 41,
+          "text": "Maintain order"
+        },
+        {
+          "min": 42,
+          "max": 43,
+          "text": "Make an agreement"
+        },
+        {
+          "min": 44,
+          "max": 45,
+          "text": "Obtain an object"
+        },
+        {
+          "min": 46,
+          "max": 47,
+          "text": "Pay a debt"
+        },
+        {
+          "min": 48,
+          "max": 49,
+          "text": "Protect a lifeform"
+        },
+        {
+          "min": 50,
+          "max": 51,
+          "text": "Protect a secret"
+        },
+        {
+          "min": 52,
+          "max": 53,
+          "text": "Prove worthiness"
+        },
+        {
+          "min": 54,
+          "max": 55,
+          "text": "Rebel against power"
+        },
+        {
+          "min": 56,
+          "max": 57,
+          "text": "Refute a falsehood"
+        },
+        {
+          "min": 58,
+          "max": 59,
+          "text": "Repair a technology"
+        },
+        {
+          "min": 60,
+          "max": 61,
+          "text": "Resolve a dispute"
+        },
+        {
+          "min": 62,
+          "max": 63,
+          "text": "Restore a relationship"
+        },
+        {
+          "min": 64,
+          "max": 65,
+          "text": "Sabotage a technology"
+        },
+        {
+          "min": 66,
+          "max": 68,
+          "text": "Secure a resource"
+        },
+        {
+          "min": 69,
+          "max": 70,
+          "text": "Seek redemption"
+        },
+        {
+          "min": 71,
+          "max": 72,
+          "text": "Seize power"
+        },
+        {
+          "min": 73,
+          "max": 74,
+          "text": "Solve a mystery"
+        },
+        {
+          "min": 75,
+          "max": 76,
+          "text": "Spread faith"
+        },
+        {
+          "min": 77,
+          "max": 78,
+          "text": "Travel to a place"
+        },
+        {
+          "min": 79,
+          "max": 80,
+          "text": "Undermine a relationship"
+        },
+        {
+          "min": 81,
+          "max": 90,
+          "text": "[⏵Action + Theme](Starforged/Oracles/Core/Action)"
+        },
+        {
+          "min": 91,
+          "max": 100,
+          "text": "Roll twice"
+        }
+      ]
+    },
+    {
+      "id": "role",
+      "title": "Masks Role",
+      "group": "NPC",
+      "die": 24,
+      "note": "",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Student"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Teacher"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Parent or guardian"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Mentor hero"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Adult hero"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Rival hero"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Young hero"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Retired hero"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Villain"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Villain’s lieutenant"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Civilian friend"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Reporter"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "Influencer"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "Government agent"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "Agency handler"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "School staff"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "Scientist"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "Tech specialist"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "Criminal"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Activist"
+        },
+        {
+          "min": 21,
+          "max": 21,
+          "text": "Rescue worker"
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "text": "Public official"
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "text": "Family member"
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "text": "Former teammate"
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "title": "Current Activity",
+      "group": "NPC",
+      "die": 20,
+      "note": "",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Preparing a confrontation"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Hiding a mistake"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Helping someone in secret"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Recruiting an ally"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Pursuing a lead"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Managing a crisis"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Trying to impress someone"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Avoiding a conversation"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Covering for someone"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Following orders"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Breaking a rule"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Testing a power or device"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "Protecting their reputation"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "Looking for the hero"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "Questioning a witness"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "Celebrating a win"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "Dealing with fallout"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "Making a demand"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "Choosing a side"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Watching from a distance"
+        }
+      ]
+    },
+    {
+      "id": "think",
+      "title": "What do they think you are?",
+      "group": "NPC",
+      "die": 12,
+      "note": "",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "A child who needs protecting"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "A weapon"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "The next great hero"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "A dangerous amateur"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Someone wasting their potential"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Their responsibility"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Competition"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "A symbol"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Someone who reminds them of themselves"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Someone destined to fail"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Someone they can use"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Someone they genuinely admire"
+        }
+      ]
+    },
+    {
+      "id": "threat",
+      "title": "Threat Type",
+      "group": "Threat",
+      "die": 12,
+      "note": "",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Villain"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Supernatural phenomenon"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Rogue technology"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Monster"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Criminal organization"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Government or hero agency"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Rival hero"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Social problem"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "School or home complication"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "Public crisis"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "Legacy problem"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "Alien or dimensional event"
+        }
+      ]
+    },
+    {
+      "id": "changed",
+      "title": "What changed between us?",
+      "group": "Relationships",
+      "die": 16,
+      "note": "Also: Why are they disappointed in me? Why am I disappointed in them?",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "A promise was broken"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "Someone chose someone else"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "I wasn’t there when they needed me"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "They crossed a line"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "I kept something important from them"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "They don’t trust my judgment anymore"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "I changed and they noticed"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "They changed and I don’t like it"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Someone else came between us"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "I embarrassed them"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "They underestimated me"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "I failed to live up to what they thought I was"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "They treated me like a child"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "I treated them like they couldn’t handle the truth"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "One of us made the relationship public"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "One of us made the relationship conditional"
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "title": "What do they need from me?",
+      "group": "Relationships",
+      "die": 18,
+      "note": "Also: What expectation are they placing on me? What would repair this relationship?",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "Honesty"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "An apology"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Proof"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "Loyalty"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "Space"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "Protection"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "Help"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "Recognition"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "Trust"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "A promise"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "A choice"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "To be taken seriously"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "To be included"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "To be defended"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "To be forgiven"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "For me to admit they were right"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "For me to stop protecting them"
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "text": "For me to become who they think I can be"
+        }
+      ]
+    },
+    {
+      "id": "hidden",
+      "title": "What are they not telling me?",
+      "group": "Relationships",
+      "die": 16,
+      "note": "Also: What misunderstanding has developed?",
+      "source": "Original for this module",
+      "entries": [
+        {
+          "min": 1,
+          "max": 1,
+          "text": "They think I already know"
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "text": "They misunderstood what I meant"
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "text": "Someone lied to them"
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "text": "They’re protecting someone else"
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "text": "They’re protecting me"
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "text": "They’re afraid I’ll leave"
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "text": "They think I betrayed them"
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "text": "They’ve made a decision without me"
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "text": "They know something about my powers"
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "text": "They know something about my family"
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "text": "They’re ashamed"
+        },
+        {
+          "min": 12,
+          "max": 12,
+          "text": "They’re jealous"
+        },
+        {
+          "min": 13,
+          "max": 13,
+          "text": "They’re being pressured by someone else"
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "text": "They think I don’t trust them"
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "text": "They’re hiding their own involvement"
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "text": "We remember the same event differently"
+        }
+      ]
+    },
+    {
+      "id": "interlude",
+      "title": "Interlude Scene",
+      "group": "Scenes",
+      "die": 100,
+      "source": "Sundered Isles, Shawn Tomkin, p. 228; CC BY-NC-SA 4.0; Masks substitutions by Doyce Testerman",
+      "note": "A scene prompt; interpret using Masks fiction and moves.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 4,
+          "text": "Record your story",
+          "questions": "What goes into your journal, messages, or posts? What do you leave out?"
+        },
+        {
+          "min": 5,
+          "max": 8,
+          "text": "Commune with nature",
+          "questions": "What flora or fauna do you encounter? What inspiration do you draw from the experience?"
+        },
+        {
+          "min": 9,
+          "max": 11,
+          "text": "Concoct a plan",
+          "questions": "What new strategy do you devise? How will you put this plan in motion?"
+        },
+        {
+          "min": 12,
+          "max": 14,
+          "text": "Conduct research",
+          "questions": "What is the nature of the research? What information or insight do you gain?"
+        },
+        {
+          "min": 15,
+          "max": 17,
+          "text": "Train together",
+          "questions": "What skill or power do you practice? Who accepts guidance, and who resists it?"
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "text": "Confess a secret",
+          "questions": "What do you reveal of your nature or background? How do others respond?"
+        },
+        {
+          "min": 21,
+          "max": 24,
+          "text": "Conjure up the past",
+          "questions": "What is the subject of this reminiscence? Why is it meaningful in this moment?"
+        },
+        {
+          "min": 25,
+          "max": 27,
+          "text": "Create an object or artwork",
+          "questions": "What do you create? What is it intended for?"
+        },
+        {
+          "min": 28,
+          "max": 31,
+          "text": "Experience a dream or vision",
+          "questions": "What is the nature of the dream or vision? What meaning do you draw from it?"
+        },
+        {
+          "min": 32,
+          "max": 34,
+          "text": "Fight in a sparring match",
+          "questions": "Who do you spar with? What issues do you provoke or resolve during the match?"
+        },
+        {
+          "min": 35,
+          "max": 37,
+          "text": "Find peace",
+          "questions": "How do you reflect, meditate, or pray? What enlightenment do you gain?"
+        },
+        {
+          "min": 38,
+          "max": 40,
+          "text": "Hear a confession",
+          "questions": "Who shares an aspect of their nature or background? What do they reveal?"
+        },
+        {
+          "min": 41,
+          "max": 43,
+          "text": "Indulge a vice",
+          "questions": "What weakness or need do you indulge? How is this viewed by others?"
+        },
+        {
+          "min": 44,
+          "max": 47,
+          "text": "Join an event",
+          "questions": "What is the occasion of this social gathering? How do you participate?"
+        },
+        {
+          "min": 48,
+          "max": 50,
+          "text": "Make or share music",
+          "questions": "What do you play, sing, or listen to together? Why does it matter?"
+        },
+        {
+          "min": 51,
+          "max": 53,
+          "text": "Motivate others",
+          "questions": "Why is this motivation needed, and what is your approach? How do they respond?"
+        },
+        {
+          "min": 54,
+          "max": 56,
+          "text": "Play a game",
+          "questions": "Who do you play with? What is discussed during the game?"
+        },
+        {
+          "min": 57,
+          "max": 60,
+          "text": "Practice a skill",
+          "questions": "What talent do you hone? What do you learn from the exercise?"
+        },
+        {
+          "min": 61,
+          "max": 64,
+          "text": "Ready your gear or costume",
+          "questions": "What do you repair, modify, or prepare? What are you expecting?"
+        },
+        {
+          "min": 65,
+          "max": 67,
+          "text": "Record a message",
+          "questions": "Who is the message meant for? What news or feelings do you share?"
+        },
+        {
+          "min": 68,
+          "max": 70,
+          "text": "Reinvent your look",
+          "questions": "What inspires the change? Is it your civilian appearance, heroic identity, or both?"
+        },
+        {
+          "min": 71,
+          "max": 73,
+          "text": "Settle a conflict",
+          "questions": "What caused this argument or fight? How do you resolve the situation?"
+        },
+        {
+          "min": 74,
+          "max": 76,
+          "text": "Share intimacy",
+          "questions": "Who do you spend time with? How does your relationship evolve?"
+        },
+        {
+          "min": 77,
+          "max": 79,
+          "text": "Share your heritage",
+          "questions": "What do you reveal about your family, culture, or heroic legacy? What memory or regret comes with it?"
+        },
+        {
+          "min": 80,
+          "max": 82,
+          "text": "Stay vigilant",
+          "questions": "What are you on the lookout for? What do you spot or overhear?"
+        },
+        {
+          "min": 83,
+          "max": 85,
+          "text": "Stir up trouble",
+          "questions": "What conflict do you incite or inflame? Why is the situation left unresolved?"
+        },
+        {
+          "min": 86,
+          "max": 89,
+          "text": "Take in the view",
+          "questions": "What sublime or dramatic scenery do you witness? What emotion or memory does it inspire?"
+        },
+        {
+          "min": 90,
+          "max": 92,
+          "text": "Tell a story",
+          "questions": "Whose story do you tell? What feeling or lesson lingers afterward?"
+        },
+        {
+          "min": 93,
+          "max": 96,
+          "text": "Work on something together",
+          "questions": "What project brings you together? What happens between you while you work?"
+        },
+        {
+          "min": 97,
+          "max": 100,
+          "text": "Get through your chores",
+          "questions": "What ordinary responsibility needs doing? What occupies your thoughts?"
+        }
+      ]
+    },
+    {
+      "id": "complication",
+      "title": "Story Complication",
+      "group": "Scenes",
+      "die": 100,
+      "source": "Sundered Isles, Shawn Tomkin, p. 230; CC BY-NC-SA 4.0; Masks substitutions by Doyce Testerman",
+      "note": "A scene prompt; interpret using Masks fiction and moves.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 4,
+          "text": "Crucial gear, technology, or support fails"
+        },
+        {
+          "min": 5,
+          "max": 7,
+          "text": "Crucial gear, technology, or support is sabotaged"
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "text": "Debt or promise comes due"
+        },
+        {
+          "min": 11,
+          "max": 14,
+          "text": "Enemy reveals unexpected powers, abilities, or influence"
+        },
+        {
+          "min": 15,
+          "max": 17,
+          "text": "Enemy reveals their true agenda or nature"
+        },
+        {
+          "min": 18,
+          "max": 20,
+          "text": "Enemy unexpectedly benefits from your actions"
+        },
+        {
+          "min": 21,
+          "max": 23,
+          "text": "Key location is made inaccessible"
+        },
+        {
+          "min": 24,
+          "max": 26,
+          "text": "Key location is threatened or made unsafe"
+        },
+        {
+          "min": 27,
+          "max": 29,
+          "text": "Natural disaster is imminent"
+        },
+        {
+          "min": 30,
+          "max": 33,
+          "text": "Needed equipment, information, or help is unavailable"
+        },
+        {
+          "min": 34,
+          "max": 36,
+          "text": "The objective isn’t what you assumed"
+        },
+        {
+          "min": 37,
+          "max": 39,
+          "text": "Old enemy resurfaces"
+        },
+        {
+          "min": 40,
+          "max": 42,
+          "text": "Simultaneous problems force a hard choice"
+        },
+        {
+          "min": 43,
+          "max": 45,
+          "text": "Someone important betrays your trust"
+        },
+        {
+          "min": 46,
+          "max": 48,
+          "text": "Someone important is threatened or endangered"
+        },
+        {
+          "min": 49,
+          "max": 51,
+          "text": "Someone important reveals their problematic secret or history"
+        },
+        {
+          "min": 52,
+          "max": 54,
+          "text": "Something important goes missing"
+        },
+        {
+          "min": 55,
+          "max": 57,
+          "text": "Gear, technology, or a power has unexpected effects"
+        },
+        {
+          "min": 58,
+          "max": 61,
+          "text": "Time pressure suddenly increases"
+        },
+        {
+          "min": 62,
+          "max": 65,
+          "text": "Trap is sprung"
+        },
+        {
+          "min": 66,
+          "max": 68,
+          "text": "The true agenda of an ally, mentor, or authority figure is revealed"
+        },
+        {
+          "min": 69,
+          "max": 72,
+          "text": "Trusted information is shown to be false"
+        },
+        {
+          "min": 73,
+          "max": 76,
+          "text": "Two seemingly unrelated problems are shown to be connected"
+        },
+        {
+          "min": 77,
+          "max": 80,
+          "text": "Undermined by self-doubt or vulnerabilities"
+        },
+        {
+          "min": 81,
+          "max": 84,
+          "text": "Unexpected enemies appear"
+        },
+        {
+          "min": 85,
+          "max": 88,
+          "text": "An urgent message pulls you away from what you’re doing"
+        },
+        {
+          "min": 89,
+          "max": 92,
+          "text": "You are tracked or followed"
+        },
+        {
+          "min": 93,
+          "max": 95,
+          "text": "You were diverted from the true crisis"
+        },
+        {
+          "min": 96,
+          "max": 100,
+          "text": "Roll twice",
+          "effect": "rollTwice"
+        }
+      ]
+    },
+    {
+      "id": "clue",
+      "title": "Story Clue",
+      "group": "Scenes",
+      "die": 100,
+      "source": "Sundered Isles, Shawn Tomkin, p. 231; CC BY-NC-SA 4.0; Masks substitutions by Doyce Testerman",
+      "note": "A scene prompt; interpret using Masks fiction and moves.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 3,
+          "text": "Affirms a previously understood fact or clue"
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "text": "Connects to a known rumor or scandal"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "text": "Connects to a previously unrelated mystery or problem"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "text": "Connects to your own expertise or interests"
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "text": "Contradicts a previously understood fact or clue"
+        },
+        {
+          "min": 16,
+          "max": 18,
+          "text": "Evokes a personal memory"
+        },
+        {
+          "min": 19,
+          "max": 21,
+          "text": "Evokes a remarkable anomaly or phenomenon"
+        },
+        {
+          "min": 22,
+          "max": 24,
+          "text": "Evokes a vision or prophecy"
+        },
+        {
+          "min": 25,
+          "max": 27,
+          "text": "Involves a cultural touchstone"
+        },
+        {
+          "min": 28,
+          "max": 30,
+          "text": "Involves a hidden or mysterious organization"
+        },
+        {
+          "min": 31,
+          "max": 33,
+          "text": "Involves a hidden or mysterious person"
+        },
+        {
+          "min": 34,
+          "max": 36,
+          "text": "Involves a key or means of access"
+        },
+        {
+          "min": 37,
+          "max": 39,
+          "text": "Involves a machine or technology"
+        },
+        {
+          "min": 40,
+          "max": 42,
+          "text": "Involves a non-human being or creature"
+        },
+        {
+          "min": 43,
+          "max": 45,
+          "text": "Involves a notable organization"
+        },
+        {
+          "min": 46,
+          "max": 48,
+          "text": "Involves a notable person"
+        },
+        {
+          "min": 49,
+          "max": 51,
+          "text": "Involves a person or organization from your background"
+        },
+        {
+          "min": 52,
+          "max": 54,
+          "text": "Involves a personal item"
+        },
+        {
+          "min": 55,
+          "max": 57,
+          "text": "Involves an enemy or rival"
+        },
+        {
+          "min": 58,
+          "max": 60,
+          "text": "Involves an organism or biological evidence"
+        },
+        {
+          "min": 61,
+          "max": 63,
+          "text": "Involves an unusual ability or power"
+        },
+        {
+          "min": 64,
+          "max": 66,
+          "text": "Involves someone you trust"
+        },
+        {
+          "min": 67,
+          "max": 69,
+          "text": "Involves something rare, expensive, or precious"
+        },
+        {
+          "min": 70,
+          "max": 72,
+          "text": "Leads to a distant or unfamiliar place"
+        },
+        {
+          "min": 73,
+          "max": 75,
+          "text": "Leads to a hidden or forgotten place"
+        },
+        {
+          "min": 76,
+          "max": 78,
+          "text": "Leads to a nearby or familiar place"
+        },
+        {
+          "min": 79,
+          "max": 81,
+          "text": "Leads to a notable or central place"
+        },
+        {
+          "min": 82,
+          "max": 84,
+          "text": "Suggests a history of similar incidents"
+        },
+        {
+          "min": 85,
+          "max": 87,
+          "text": "Suggests a looming event or deadline"
+        },
+        {
+          "min": 88,
+          "max": 90,
+          "text": "Suggests an impostor or forgery"
+        },
+        {
+          "min": 91,
+          "max": 100,
+          "text": "Descriptor + Focus",
+          "effect": "descriptorFocus"
+        }
+      ]
+    },
+    {
+      "id": "combat",
+      "title": "Combat Action",
+      "group": "Scenes",
+      "die": 100,
+      "source": "Sundered Isles, Shawn Tomkin, p. 232; CC BY-NC-SA 4.0; Masks substitutions by Doyce Testerman",
+      "note": "A scene prompt; interpret using Masks fiction and moves.",
+      "entries": [
+        {
+          "min": 1,
+          "max": 3,
+          "text": "Back away or stand off"
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "text": "Block a path or cut off an objective"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "text": "Change powers, weapons, or tactics"
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "text": "Charge recklessly"
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "text": "Compel a surrender or concession"
+        },
+        {
+          "min": 16,
+          "max": 18,
+          "text": "Corner, trap, or entangle"
+        },
+        {
+          "min": 19,
+          "max": 21,
+          "text": "Destroy something or render it useless"
+        },
+        {
+          "min": 22,
+          "max": 24,
+          "text": "Force off balance or out of position"
+        },
+        {
+          "min": 25,
+          "max": 27,
+          "text": "Hide or take cover"
+        },
+        {
+          "min": 28,
+          "max": 30,
+          "text": "Intimidate, taunt, or frighten"
+        },
+        {
+          "min": 31,
+          "max": 33,
+          "text": "Exploit the advantage of a power, weapon, or ability"
+        },
+        {
+          "min": 34,
+          "max": 36,
+          "text": "Leverage the terrain or environment"
+        },
+        {
+          "min": 37,
+          "max": 39,
+          "text": "Lure into a vulnerable position"
+        },
+        {
+          "min": 40,
+          "max": 42,
+          "text": "Make a cautious or probing attack"
+        },
+        {
+          "min": 43,
+          "max": 45,
+          "text": "Make a ferocious or reckless attack"
+        },
+        {
+          "min": 46,
+          "max": 48,
+          "text": "Make a precise or careful attack"
+        },
+        {
+          "min": 49,
+          "max": 51,
+          "text": "Make a showy move intended to impress"
+        },
+        {
+          "min": 52,
+          "max": 54,
+          "text": "Maneuver to a better position"
+        },
+        {
+          "min": 55,
+          "max": 57,
+          "text": "Move in close or grapple"
+        },
+        {
+          "min": 58,
+          "max": 60,
+          "text": "Perform a feint or trick"
+        },
+        {
+          "min": 61,
+          "max": 63,
+          "text": "Prepare or bolster a defense"
+        },
+        {
+          "min": 64,
+          "max": 66,
+          "text": "Press an advantage"
+        },
+        {
+          "min": 67,
+          "max": 69,
+          "text": "Provoke a careless response"
+        },
+        {
+          "min": 70,
+          "max": 72,
+          "text": "Ready a decisive strike"
+        },
+        {
+          "min": 73,
+          "max": 75,
+          "text": "Recover or repair"
+        },
+        {
+          "min": 76,
+          "max": 78,
+          "text": "Reveal an unexpected ability or weapon"
+        },
+        {
+          "min": 79,
+          "max": 81,
+          "text": "Seize equipment or something important"
+        },
+        {
+          "min": 82,
+          "max": 84,
+          "text": "Seize or overrun a position"
+        },
+        {
+          "min": 85,
+          "max": 87,
+          "text": "Shift the fight to a new area"
+        },
+        {
+          "min": 88,
+          "max": 90,
+          "text": "Signal or summon aid"
+        },
+        {
+          "min": 91,
+          "max": 93,
+          "text": "Use a decoy or distraction"
+        },
+        {
+          "min": 94,
+          "max": 96,
+          "text": "Use a power, weapon, or ability in an unexpected way"
+        },
+        {
+          "min": 97,
+          "max": 100,
+          "text": "Roll twice",
+          "effect": "rollTwice"
+        }
+      ]
+    }
+  ]
+}
