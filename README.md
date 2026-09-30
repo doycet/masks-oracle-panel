@@ -8,7 +8,9 @@ A private oracle control panel for solo Masks play or GM preparation in Foundry 
 Copy the url https://github.com/doycet/masks-oracle-panel/releases/latest/download/module.json and paste that into Foundry’s **Install Module → Manifest URL**.
 
 **Option 2:**
-Unzip into `FoundryData/Data/modules/` so that the folder is `FoundryData/Data/modules/masks-oracle-panel/` and `module.json` is directly inside that folder. Restart Foundry if it is already running. Enable **Masks Solo / GM Oracle Panel** in Manage Modules. Click the theatrical masks sidebar icon and **Open Control Panel**. The same panel is available from the browser console with `MasksOraclePanel.open()`.
+Unzip into `FoundryData/Data/modules/` so that the folder is `FoundryData/Data/modules/masks-oracle-panel/` and `module.json` is directly inside that folder. Restart Foundry if it is already running. 
+
+Having done either option 1 or option 2, enable **Masks Solo / GM Oracle Panel** in Manage Modules. Click the theatrical masks sidebar icon and **Open Control Panel**. The same panel is available from the browser console with `MasksOraclePanel.open()`.
 
 The ZIP is a manual installation package, not a hosted manifest URL. A browser refresh after editing data will reload it; the panel's **Reload data** button does the same.
 
