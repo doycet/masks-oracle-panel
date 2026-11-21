@@ -27,6 +27,15 @@ async function masksLoadData() {
     }
     if (coverage.some(n => n !== 1)) throw new Error(`Table ${table.id} has a gap or overlapping rows`);
   }
+  const ids = new Set(data.tables.map(table => table.id));
+  if (ids.size !== data.tables.length) throw new Error("Oracle table IDs must be unique");
+  for (const table of data.tables) {
+    for (const row of table.entries) {
+      if (row.effect && !["rollTwice", "descriptorFocus", "rollTables"].includes(row.effect)) throw new Error(`Unknown effect in ${table.id}`);
+      if (row.effect === "rollTables" && (!Array.isArray(row.tables) || !row.tables.length || row.tables.some(id => !ids.has(id)))) throw new Error(`Invalid table reference in ${table.id}`);
+    }
+    if (table.entries.every(row => row.effect === "rollTwice")) throw new Error(`Table ${table.id} has no terminal results`);
+  }
   masksOracleData = data;
   return data;
 }
@@ -77,20 +86,21 @@ class MasksOraclePanel extends foundry.applications.api.HandlebarsApplicationMix
     const parts = this.resolveResult(table, number);
     this.showResult(table.title, parts);
   }
-  resolveResult(table, number) {
+  resolveResult(table, number, depth = 0) {
+    if (depth > 12) throw new Error("Oracle references are nested too deeply; check the data file.");
     const result = masksLookup(table, number);
-    const parts = [{label: `d${table.die}: ${number}`, text: result.text, questions: result.questions}];
+    const parts = [{label: `${table.title} · d${table.die}: ${number}`, text: result.text, questions: result.questions}];
     if (result.effect === "rollTwice") {
       for (let i = 0; i < 2; i++) {
         let next;
         do { next = masksRoll(table.die); } while (masksLookup(table, next).effect === "rollTwice");
-        parts.push(...this.resolveResult(table, next));
+        parts.push(...this.resolveResult(table, next, depth + 1));
       }
-    } else if (result.effect === "descriptorFocus") {
-      for (const id of ["descriptor", "focus"]) {
+    } else if (result.effect === "descriptorFocus" || result.effect === "rollTables") {
+      for (const id of result.effect === "descriptorFocus" ? ["descriptor", "focus"] : result.tables) {
         const core = masksOracleData.tables.find(t => t.id === id);
         const n = masksRoll(core.die);
-        parts.push({label: `${core.title} ${n}`, text: masksLookup(core, n).text});
+        parts.push(...this.resolveResult(core, n, depth + 1));
       }
     }
     return parts;

@@ -1,12 +1,17 @@
-# Masks Solo / GM Oracle Panel — playtest 0.2.0
+# Masks Solo / GM Oracle Panel - playtest 0.3.0
 
 A private oracle control panel for solo Masks play or GM preparation in Foundry VTT v14. Although designed for use with Masks: A New Generation, it is system independent. It does not modify Masks sheets, publish chat messages, create world documents, or save results in shared world data.
 
 ## Install
 
-Unzip into `FoundryData/Data/modules/` so that the folder is `FoundryData/Data/modules/masks-oracle-panel/` and `module.json` is directly inside that folder. Restart Foundry if it is already running. Enable **Masks Solo / GM Oracle Panel** in Manage Modules. Click the theatrical masks sidebar icon and **Open Control Panel**. The same panel is available from the browser console with `MasksOraclePanel.open()`.
+**Option 1:** 
+Copy the url `https://github.com/doycet/masks-oracle-panel/releases/latest/download/module.json` and paste that into Foundry’s **Install Module → Manifest URL**.
 
-The ZIP is a manual installation package, not a hosted manifest URL. A browser refresh after editing data will reload it; the panel's **Reload data** button does the same.
+**Option 2:**
+Create `FoundryData/Data/modules/masks-oracle-panel/` and extract the ZIP into that folder, with `module.json` directly inside it. Restart Foundry if it’s already running.
+
+Having done either option 1 or option 2, enable **Masks Solo / GM Oracle Panel** in Manage Modules. Click the theatrical masks sidebar icon and **Open Control Panel**. The same panel is available from the browser console with `MasksOraclePanel.open()`.
+
 
 ## Use
 
@@ -16,7 +21,7 @@ The source sheet is `data/oracles.json`. Each table has an `id`, `title`, `group
 
 Action substitutions retain their d100 slots: 43 Explore → Provoke; 50 Gather → Embarrass; 59 Journey → Recruit. Theme substitutions: 11 Commerce → Approval; 32 Expedition → Acceptance; 50 Labor → Expectation; 59 Passage → Belonging; 73 Resource → Influence; 86 Supply → Friendship; 91 Trade → Identity; 98 Wealth → Responsibility.
 
-The NPC generator includes Starforged's Disposition, First Look, and Goal with original percentile weights, plus Masks Role, Current Activity, and the 1d12 **What do they think you are?** table. The custom Consequence table rolls twice when it lands on 20, rerolling further 20s. Threat Type and the three relationship tables use playtest drafts.
+The NPC generator includes Starforged's Disposition, First Look, and Goal with original percentile weights, plus Masks Role, Current Activity, and the 1d12 **What do they think you are?** table. The custom Consequence table rolls twice when it lands on 20, rerolling further 20s. Threat Type and the three d20 relationship tables use playtest drafts. Cross-table results resolve automatically, including NPC Goal results that call for Action + Theme or two further Goal rolls.
 
 ## Scope
 
@@ -31,3 +36,13 @@ Adds Interlude Scene, Story Complication, Story Clue, and Combat Action from Sun
 Fixed the sidebar wrapper so its margins apply, heading size reduces, and explanatory text and launch button have consistent spacing.
 
 Validated all 19 table ranges, syntax, and special-result resolution in a Foundry environment. Tested inside several live Foundry worlds.
+
+## 0.3.0 changes
+
+Updates the oracles to Doyce Testerman’s revised analog reference: all three relationship tables now use d20, with ten additional entries and revised wording. NPC Disposition, NPC First Look, and NPC Goal have explicit NPC labels. First Look 96–97 rolls Descriptor; its note suggests rolling First Look twice. Threat Type notes Descriptor + Focus as an alternative.
+
+Cross-table results automatically resolve Descriptor, Action + Theme, Descriptor + Focus, and hidden NPC Goals. Roll-twice results reroll further roll-twice entries and resolve any cross-table results they produce. All results remain private to the current client.
+
+The matching analog reference is included in [docs/Masks-Oracles-Analog.md](docs/Masks-Oracles-Analog.md).
+
+Version 0.3.0 validation: all 762 entries match the revised Markdown; complete dice ranges, JavaScript syntax, nested cross-table rolls, repeat rerolls, and private result history pass automated checks. Live Foundry testing of this version is pending.

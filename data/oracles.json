@@ -2164,7 +2164,7 @@
     },
     {
       "id": "disposition",
-      "title": "Disposition",
+      "title": "NPC Disposition",
       "group": "NPC",
       "die": 100,
       "note": "",
@@ -2234,10 +2234,10 @@
     },
     {
       "id": "first-look",
-      "title": "First Look",
+      "title": "NPC First Look",
       "group": "NPC",
       "die": 100,
-      "note": "",
+      "note": "Roll d100, probably twice.",
       "source": "Starforged Reference Guide, Shawn Tomkin (CC BY 4.0); Masks edits by Doyce Testerman",
       "entries": [
         {
@@ -2428,7 +2428,11 @@
         {
           "min": 96,
           "max": 97,
-          "text": "Wounded"
+          "text": "Descriptor",
+          "effect": "rollTables",
+          "tables": [
+            "descriptor"
+          ]
         },
         {
           "min": 98,
@@ -2439,7 +2443,7 @@
     },
     {
       "id": "goal",
-      "title": "Goal",
+      "title": "NPC Goal",
       "group": "NPC",
       "die": 100,
       "note": "",
@@ -2638,12 +2642,18 @@
         {
           "min": 81,
           "max": 90,
-          "text": "[⏵Action + Theme](Starforged/Oracles/Core/Action)"
+          "text": "Action + Theme",
+          "effect": "rollTables",
+          "tables": [
+            "action",
+            "theme"
+          ]
         },
         {
           "min": 91,
           "max": 100,
-          "text": "Roll twice"
+          "text": "Roll twice",
+          "effect": "rollTwice"
         }
       ]
     },
@@ -2962,7 +2972,7 @@
       "title": "Threat Type",
       "group": "Threat",
       "die": 12,
-      "note": "",
+      "note": "Can also roll Descriptor + Focus.",
       "source": "Original for this module",
       "entries": [
         {
@@ -3031,7 +3041,7 @@
       "id": "changed",
       "title": "What changed between us?",
       "group": "Relationships",
-      "die": 16,
+      "die": 20,
       "note": "Also: Why are they disappointed in me? Why am I disappointed in them?",
       "source": "Original for this module",
       "entries": [
@@ -3053,7 +3063,7 @@
         {
           "min": 4,
           "max": 4,
-          "text": "They crossed a line"
+          "text": "One of us crossed a line"
         },
         {
           "min": 5,
@@ -3068,7 +3078,7 @@
         {
           "min": 7,
           "max": 7,
-          "text": "I changed and they noticed"
+          "text": "I changed and they noticed (negative)"
         },
         {
           "min": 8,
@@ -3078,42 +3088,62 @@
         {
           "min": 9,
           "max": 9,
-          "text": "Someone else came between us"
+          "text": "I didn't change when they needed me to."
         },
         {
           "min": 10,
           "max": 10,
-          "text": "I embarrassed them"
+          "text": "Someone else came between us"
         },
         {
           "min": 11,
           "max": 11,
-          "text": "They underestimated me"
+          "text": "I embarrassed them"
         },
         {
           "min": 12,
           "max": 12,
-          "text": "I failed to live up to what they thought I was"
+          "text": "They underestimated me"
         },
         {
           "min": 13,
           "max": 13,
-          "text": "They treated me like a child"
+          "text": "I failed to live up to what they thought I was"
         },
         {
           "min": 14,
           "max": 14,
-          "text": "I treated them like they couldn’t handle the truth"
+          "text": "They treated me like a child"
         },
         {
           "min": 15,
           "max": 15,
-          "text": "One of us made the relationship public"
+          "text": "I treated them like they couldn’t handle the truth"
         },
         {
           "min": 16,
           "max": 16,
+          "text": "I told them a truth and they couldn't handle it."
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "One of us made the relationship public"
+        },
+        {
+          "min": 18,
+          "max": 18,
           "text": "One of us made the relationship conditional"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "They ghosted me, and I don't know why"
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Circumstances made keeping connected impossible"
         }
       ]
     },
@@ -3121,7 +3151,7 @@
       "id": "need",
       "title": "What do they need from me?",
       "group": "Relationships",
-      "die": 18,
+      "die": 20,
       "note": "Also: What expectation are they placing on me? What would repair this relationship?",
       "source": "Original for this module",
       "entries": [
@@ -3214,14 +3244,30 @@
           "min": 18,
           "max": 18,
           "text": "For me to become who they think I can be"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "Action + Theme",
+          "effect": "rollTables",
+          "tables": [
+            "action",
+            "theme"
+          ]
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Roll Twice",
+          "effect": "rollTwice"
         }
       ]
     },
     {
       "id": "hidden",
-      "title": "What are they not telling me?",
+      "title": "What/Why are they not telling me?",
       "group": "Relationships",
-      "die": 16,
+      "die": 20,
       "note": "Also: What misunderstanding has developed?",
       "source": "Original for this module",
       "entries": [
@@ -3278,32 +3324,57 @@
         {
           "min": 11,
           "max": 11,
-          "text": "They’re ashamed"
+          "text": "They know something about a mutual"
         },
         {
           "min": 12,
           "max": 12,
-          "text": "They’re jealous"
+          "text": "They’re ashamed"
         },
         {
           "min": 13,
           "max": 13,
-          "text": "They’re being pressured by someone else"
+          "text": "They have unreconciled/unreciprocated feelings"
         },
         {
           "min": 14,
           "max": 14,
-          "text": "They think I don’t trust them"
+          "text": "They’re jealous"
         },
         {
           "min": 15,
           "max": 15,
-          "text": "They’re hiding their own involvement"
+          "text": "They’re being pressured by someone else"
         },
         {
           "min": 16,
           "max": 16,
+          "text": "They think I don’t trust them"
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "text": "They’re hiding their own involvement"
+        },
+        {
+          "min": 18,
+          "max": 18,
           "text": "We remember the same event differently"
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "text": "They have a hidden NPC Goal",
+          "effect": "rollTables",
+          "tables": [
+            "goal"
+          ]
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "text": "Roll Twice",
+          "effect": "rollTwice"
         }
       ]
     },
@@ -3815,7 +3886,11 @@
           "min": 91,
           "max": 100,
           "text": "Descriptor + Focus",
-          "effect": "descriptorFocus"
+          "effect": "rollTables",
+          "tables": [
+            "descriptor",
+            "focus"
+          ]
         }
       ]
     },
