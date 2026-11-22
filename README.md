@@ -45,4 +45,4 @@ Cross-table results automatically resolve Descriptor, Action + Theme, Descriptor
 
 The matching analog reference is included in [docs/Masks-Oracles-Analog.md](docs/Masks-Oracles-Analog.md).
 
-Version 0.3.0 validation: all 762 entries match the revised Markdown; complete dice ranges, JavaScript syntax, nested cross-table rolls, repeat rerolls, and private result history pass automated checks. Live Foundry testing of this version is pending.
+Version 0.3.0 validation: all 762 entries match the revised Markdown; complete dice ranges, JavaScript syntax, nested cross-table rolls, repeat rerolls, and private result history pass automated checks. Live Foundry testing of this version is ongoing.
